@@ -1,0 +1,41 @@
+.featureGrid {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+    padding: 2rem;
+    background: transparent;
+}
+
+.number {
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(var(--primary-rgb));
+    opacity: 0.8;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: rgb(var(--foreground-rgb));
+}
+
+.text {
+    color: rgb(var(--secondary-rgb));
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .featureGrid {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
