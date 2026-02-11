@@ -7,7 +7,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
-  title: 'AntiGravity | Fast & Scalable Web Solutions',
+  title: 'TechSolution | Fast & Scalable Web Solutions',
   description: 'We build high-performance web applications and automation solutions for ambitious businesses.',
 };
 
